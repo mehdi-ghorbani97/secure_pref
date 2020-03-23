@@ -1,0 +1,2 @@
+include ':sample', ':scurepref'
+rootProject.name='Secure Pref'
