@@ -45,13 +45,13 @@ public class App extends Application {
 ## Usage
 After initialization, you can use simple one-line methods to save values to the shared preferences anywhere in your app, such as:
 
-- `Prefs.putString(key, string)`
-- `Prefs.putLong(key, long)`
-- `Prefs.putBoolean(key, boolean)` 
+- `SecurePref.putString(key, string)`
+- `SecurePref.putLong(key, long)`
+- `SecurePref.putBoolean(key, boolean)` 
 
 Retrieving data from the Shared Preferences can be as simple as:
 
-    String data = Prefs.getString(key, default value)
+    String data = SecurePref.getString(key, default value)
  
  ## Contact   
  Please fell free to contact me if there is any problem when using the library.
